@@ -33,7 +33,8 @@ class Ship():
 			self.centery += self.gamesetting.ship_speed_factor
 
 		self.rect.centerx = self.centerx
-		self.rect.centery = self.centery
+		self.rect.centery = self.centery 
+
 
 	def blitme(self):
 		self.screen.blit(self.image,self.rect)
